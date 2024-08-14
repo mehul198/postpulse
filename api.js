@@ -18,7 +18,7 @@ export const uploadFile = async (file, metadata, onUploadProgress) => {
             const headers = request.headers
         }
         const formHandling = async (req, resp) => {
-            console.log("form Handling")
+            console.log("form Handling succeed")
             const btn = document.getElementById("button-tag")
             btn.addEventListener(() => {
                 let a = 5;
