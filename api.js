@@ -504,4 +504,8 @@ export const deletingFile = async (file, metadata,
             },
         })
     }
+    catch{
+        console.log('error');
+        
+    }
     }
