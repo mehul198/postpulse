@@ -509,3 +509,5 @@ export const deletingFile = async (file, metadata,
         
     }
     }
+    // Delete function code error handling
+    
